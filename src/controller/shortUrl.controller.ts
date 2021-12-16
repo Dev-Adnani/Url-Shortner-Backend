@@ -36,7 +36,7 @@ export class UrlController {
       }
     } catch (e) {
       return res.send({
-        url: null,
+        url: '',
         destination: destination,
         message: "This Custom Url Is Already Taken",
         received: false,
